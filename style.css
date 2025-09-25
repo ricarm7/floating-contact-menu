@@ -6,13 +6,18 @@
 }
 
 .floating-menu-item {
-  padding: 15px 10px 15px 10px;
   background-color: #6cc551;
 }
 
 .floating-menu-item:hover {
   background-color: #71b15e;
   transition: 0.5s;
+}
+
+.floating-menu-item a {
+  padding: 15px 10px 15px 10px;
+  display: block;
+  text-decoration: none;
 }
 
 .floating-menu-item:not(:last-child) {
